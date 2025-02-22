@@ -1,0 +1,43 @@
+name: mp_take_home_test
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  material_design_icons_flutter: ^7.0.7296
+  countup: ^0.1.4
+  google_maps_flutter: ^2.7.0
+  flutter_animate: ^4.5.0
+  auto_size_text: ^3.0.0
+  svg_flutter: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/map_styles/
+
+  fonts:
+    - family: EuclidCircular
+      fonts:
+        - asset: assets/fonts/EuclidCircular/EuclidCircularALight.ttf
+          weight: 300
+        - asset: assets/fonts/EuclidCircular/EuclidCircularARegular.ttf
+          weight: 400
+        - asset: assets/fonts/EuclidCircular/EuclidCircularAMedium.ttf
+          weight: 500
+        - asset: assets/fonts/EuclidCircular/EuclidCircularASemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/EuclidCircular/EuclidCircularABold.ttf
